@@ -21,12 +21,14 @@ if you don't wanna use .exe file, In order to use this code, these modules needs
 ## Run :
 
 to run code use the command below in your terminal :
+
+
 ```Python
-python3 main.py
+python3 Main.py
 ```
 
 ## Found any BUG???
-wow nice! i really appreciate a guy who tell me about the bugs of this little game :)
+wow nice! i really appreciate a guy who tell me about the bugs of this code :)
 > you can send me message about the Bugs you have founded on Telegram : @ThisisMahdi
 
 ##
