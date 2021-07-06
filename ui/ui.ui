@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>429</width>
+    <height>584</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#22272e;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="purchase">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>371</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border-radius:5px;
+border-style: solid;
+border-width: 1px;
+border-color:#444c56;
+font-family:calibri;
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="purchase_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>78</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#adbac7;
+font-family:calibri;
+background-color:none;
+</string>
+    </property>
+    <property name="text">
+     <string>Enter your purchase price :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="sale_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>178</y>
+      <width>161</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#adbac7;
+font-family:calibri;
+background-color:none;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Enter your sale price :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="sale">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>201</y>
+      <width>371</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border-radius:5px;
+border-style: solid;
+border-width: 1px;
+border-color:#444c56;
+font-family:calibri;
+
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="property_label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>280</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#adbac7;
+font-family:calibri;
+background-color:none;
+
+</string>
+    </property>
+    <property name="text">
+     <string>How much do you want to buy? (in Dollar $)</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="property">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>305</y>
+      <width>371</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+border-radius:5px;
+border-style: solid;
+border-width: 1px;
+border-color:#444c56;
+font-family:calibri;
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="calculate">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>380</y>
+      <width>181</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color:#adbac7;
+font-family:calibri;
+border-radius:5px;
+border-style: solid;
+border-width: 1px;
+border-color:#f9826c;
+}
+
+QPushButton:hover{
+background-color:#f9826c;
+color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>CALCULATE PROFIT</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#adbac7;
+font-family:calibri;
+background-color:none;
+</string>
+    </property>
+    <property name="text">
+     <string>Profit calculation Application</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>0</y>
+      <width>451</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#2d333b;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mahdi">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>540</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+text-decoration: none;
+font-family:calibri;
+background-color:#2d333b;
+border-radius:5px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="openExternalLinks">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>162</x>
+      <y>430</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#adbac7;
+font-family:calibri;
+background-color:none;
+
+</string>
+    </property>
+    <property name="text">
+     <string>Your Profit Will Be :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="profit">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>456</y>
+      <width>371</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>39</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+      <stylestrategy>PreferDefault</stylestrategy>
+      <kerning>true</kerning>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+font-family:calibri;
+background-color:none;
+border-radius:4px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>purchase</zorder>
+   <zorder>purchase_label</zorder>
+   <zorder>sale_label</zorder>
+   <zorder>sale</zorder>
+   <zorder>property_label</zorder>
+   <zorder>property</zorder>
+   <zorder>calculate</zorder>
+   <zorder>label</zorder>
+   <zorder>mahdi</zorder>
+   <zorder>label_3</zorder>
+   <zorder>profit</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>429</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:white;</string>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
