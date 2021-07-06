@@ -1,3 +1,6 @@
+# A Simple Code By ThisMahdi | Telegram : @Thisismahdi
+
+# Imports Here
 from PyQt5.QtWidgets import QApplication, QMessageBox,QMainWindow
 from PyQt5.QtGui import QDoubleValidator
 from PyQt5 import QtGui
@@ -81,3 +84,5 @@ if __name__ == "__main__":
         sys.exit(app.exec_())
     except SystemExit:
         print("Closing app...")
+        
+# A Simple Code By ThisMahdi | Telegram : @Thisismahdi
